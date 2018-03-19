@@ -49,9 +49,9 @@ class DatosSocket{
 		puertoLocal = socket.getLocalPort();
 	}
 	public String toString(){
-		String s = "Remoto: " + dirlPRemota.getHostAddress() + "" + puertoRemoto;
-		s += " Local: " + dirlPlocal.getHostAddress() + "" + puertoLocal;
-		return s;
+		String string = "Remoto: " + dirlPRemota.getHostAddress() + "" + puertoRemoto;
+		string += " Local: " + dirlPlocal.getHostAddress() + "" + puertoLocal;
+		return string;
 	}
 }
 
